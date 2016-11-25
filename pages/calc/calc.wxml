@@ -1,0 +1,33 @@
+<view class="container">
+    <view class="layout-screen">
+        <text>{{sd}}</text>
+    </view>
+    <view class="btnGroupTop">
+        <button type="default" bindtap="btn_clean">C</button>
+        <button type="default" bindtap="btn_back">←</button>
+    </view>
+    <view class="btnGroup">
+        <button type="default" bindtap="btn1">1</button>
+        <button type="default" bindtap="btn2">2</button>
+        <button type="default" bindtap="btn3">3</button>
+        <button type="default" bindtap="btn_plus">+</button>
+    </view>
+    <view class="btnGroup">
+        <button type="default" bindtap="btn4">4</button>
+        <button type="default" bindtap="btn5">5</button>
+        <button type="default" bindtap="btn6">6</button>
+        <button type="default" bindtap="btn_minus">-</button>
+    </view>
+    <view class="btnGroup">
+        <button type="default" bindtap="btn7">7</button>
+        <button type="default" bindtap="btn8">8</button>
+        <button type="default" bindtap="btn9">9</button>
+        <button type="default" bindtap="btn_times">*</button>
+    </view>
+    <view class="btnGroup">
+        <button type="default" bindtap="btn_point">.</button>
+        <button type="default" bindtap="btn0">0</button>
+        <button type="default" bindtap="btn_equal">=</button>
+        <button type="default" bindtap="btn_divide">/</button>
+    </view>
+</view>
