@@ -43,7 +43,7 @@ function clean(context){
 //back
 function back(context){
     var str1 = context.data.sd;
-    var str2 = str1.substring(0,str.length-1);
+    var str2 = str1.substring(0,str1.length-1);
     if(str2.length > 0){
         context.setData({sd: str2});
     }
@@ -66,7 +66,7 @@ function equal(context){
     var res = '0';
     switch(context.data.symbol){
         case 'plus': 
-            res = n1 + n2;
+            res = parseFloat(n1) + parseFloat(n2);
             break;
         case 'minus':
             res = n1 - n2;
@@ -75,7 +75,7 @@ function equal(context){
             res = n1 * n2;
             break;
         case 'divide':
-            res = ni / n2;
+            res = n1 / n2;
             break;
         default:
             break;
